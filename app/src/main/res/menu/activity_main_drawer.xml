@@ -40,20 +40,13 @@
             android:icon="@drawable/ic_menu_manage"
             android:title=" কোর্ট ফি আইন- ১৮৭০ \n
  সংশোধন -2010 " />
+        <item
+            android:id="@+id/nav_artho_rin_ain"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="অর্থঋণ আদালত আইন ২০০৩ \n সংশোধনী ২০১০   " />
 
     </group>
 
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
-        </menu>
-    </item>
+
 
 </menu>

@@ -44,8 +44,12 @@
             android:id="@+id/nav_artho_rin_ain"
             android:icon="@drawable/ic_menu_manage"
             android:title="অর্থঋণ আদালত আইন ২০০৩ \n সংশোধনী ২০১০   " />
-
+        <item
+            android:id="@+id/nav_shrom_ain_2006"
+            android:icon="@drawable/ic_menu_manage"
+            android:title=" শ্রম আইন ২০০৬ \n সংশোধনী -2010  " />
     </group>
+
 
 
 

@@ -6,58 +6,68 @@
             android:id="@+id/nav_foujdari_karjobidhi"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="ফৌজদারি কার্যবিধি" />
+
         <item
             android:id="@+id/nav_foujdari_dondobidhi"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="ফৌজদারি দণ্ডবিধি" />
+
         <item
             android:id="@+id/nav_dewani_karjobidhi"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="দেওয়ানি কার্যবিধি " />
+
         <item
             android:id="@+id/nav_prothikar_ain"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="সুনির্দিষ্ট প্রতিকার আইন ১৮৭৭" />
+
         <item
             android:id="@+id/nav_foujdari_karjobidhi_1898"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="ফৌজদারি কার্যবিধি ১৮৯৮" />
+
         <item
             android:id="@+id/nav_dondobidhi_1860"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="দণ্ডবিধি ১৮৬০" />
+
         <item
             android:id="@+id/nav_sakko_ain"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="সাক্ষ্য আইন ১৮৭২" />
+
         <item
             android:id="@+id/nav_tamadi_ain"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title=" তামাদি আইন ১৯০৮" />
+
         <item
             android:id="@+id/nav_court_ain_1870"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title=" কোর্ট ফি আইন- ১৮৭০ সংশোধনী-2010" />
+
         <item
             android:id="@+id/nav_artho_rin_ain"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="অর্থঋণ আদালত আইন ২০০৩ সংশোধনী ২০১০" />
+
         <item
             android:id="@+id/nav_shrom_ain_2006"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title=" শ্রম আইন ২০০৬ সংশোধনী-2010" />
 
+
         <item
             android:id="@+id/nav_moukhik_viva"
             android:icon="@drawable/ic_gavel_black_24dp"
             android:title="মৌখিক ভাইভা" />
+
         <item
             android:id="@+id/nav_pdf_book"
             android:icon="@drawable/ic_picture_as_pdf_black_24dp"
             android:title="PDF বই"/>
     </group>
-
-
 
 
 </menu>

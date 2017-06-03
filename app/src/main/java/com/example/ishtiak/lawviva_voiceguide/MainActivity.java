@@ -19,31 +19,12 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-ListView lv;
-    String []arr = {"Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna","Shuvojit","Kar","Manna"};
-    @Override
+  @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        lv = (ListView) findViewById(R.id.lv);
-        ArrayAdapter ar = new ArrayAdapter(this,android.R.layout.simple_list_item_1,arr);
-        lv.setAdapter(ar);
-        lv.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, arr[position].toString(), Toast.LENGTH_SHORT).show();
-            }
-        });
-
-        lv.setOnItemLongClickListener(new AdapterView.OnItemLongClickListener() {
-            @Override
-            public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
-                Toast.makeText(MainActivity.this, arr[position].toString(), Toast.LENGTH_SHORT).show();
-                return false;
-            }
-        });
 
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);

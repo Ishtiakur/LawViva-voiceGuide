@@ -5,4 +5,25 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Settings</string>
+
+
+    <string-array name="nav_item">
+
+        <item>ফৌজদারি দণ্ডবিধি </item>
+        <item>ফৌজদারি কার্যবিধি </item>
+        <item>দেওয়ানি কার্যবিধি </item>
+        <item>ফসুনির্দিষ্ট প্রতিকার আইন ১৮৭৭ </item>
+        <item>ফৌজদারি কার্যবিধি ১৮৯৮</item>
+        <item>দণ্ডবিধি ১৮৬০ </item>
+        <item>সাক্ষ্য আইন ১৮৭২ </item>
+        <item>তামাদি আইন ১৯০৮ </item>
+        <item>কোর্ট ফি আইন- ১৮৭০ সংশোধনী-2010 </item>
+        <item>অর্থঋণ আদালত আইন ২০০৩ সংশোধনী ২০১০ </item>
+        <item>শ্রম আইন ২০০৬ সংশোধনী-2010 </item>
+        <item>মৌখিক ভাইভা </item>
+        <item>PDF বই </item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
